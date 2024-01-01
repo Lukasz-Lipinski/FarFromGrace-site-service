@@ -9,9 +9,8 @@ const router = Router();
 interface IEmail {
   text: string;
   subject: string;
-    name: string;
-    address: string;
-  
+  name: string;
+  address: string;
 }
 
 const transporter = nodemailer.createTransport({
